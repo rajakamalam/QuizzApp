@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+
+*,
+*::after {
+    padding: auto;
+}
+
+*::before {
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: large;
+}
+
+.cardSummary {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .3);
+    float: center;
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.home_btn {
+    background-color: rgb(246, 228, 206);
+    margin-top: 0.5em;
+    border: 1px solid rgb(215, 200, 200);
+    width: 150px;
+}

@@ -1,11 +1,23 @@
 import { GetQuestions, updateQuestions, InitialState } from "../Types/Types"
 
 const initialState: InitialState = {
-    each_question: [],
-    question_index: 0,
+    each_question: [{
+        "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+        "options": [
+            "Culper Ring",
+            "New York Spy Ring",
+            "Washington&#039;s Spies",
+            "Unnamed"
+        ],
+        "correct_answer": "Culper Ring",
+    }],
+    question_index: 1,
     currentScore: 0,
     totalScore: 0,
-    isAnserSelected: false
+    isAnswerSelected: false,
+    isLifeline1Used: false,
+    isLifeline2Used: false,
+    unansweredQuestionCount: 0
 };
 
 export default function Questions_Reducer(state = initialState, action: GetQuestions | updateQuestions): InitialState {

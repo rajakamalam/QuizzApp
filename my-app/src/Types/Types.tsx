@@ -8,7 +8,10 @@ export type InitialState = {
     question_index: number,
     currentScore: number,
     totalScore: number,
-    isAnserSelected: boolean
+    isAnswerSelected: boolean,
+    isLifeline1Used: boolean,
+    isLifeline2Used: boolean,
+    unansweredQuestionCount: number
 }
 
 //1. Load all questions:

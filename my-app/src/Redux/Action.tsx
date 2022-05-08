@@ -5,8 +5,8 @@ import { GetQuestions, InitialState, Question } from '../Types/Types';
 
 //1. Get questions on load
 export function getQuestions(questions: Question[]): GetQuestions {
-    console.log("Action:")
-    console.log(questions)
+    // console.log("Action:")
+    // console.log(questions)
     return {
         type: "GET_QUESTIONS",
         payload: questions,
@@ -21,9 +21,9 @@ export function updateQuestions(updateState: InitialState) {
 }
 
 export function fetchQuestions() {
-    return (dispatch: Dispatch) => {
-        console.log("Fetch questions")
-        console.log(data)
+    return async (dispatch: Dispatch) => {
+        // console.log("Fetch questions")
+        // console.log(data)
         dispatch(getQuestions(data))
     };
 }

@@ -64,3 +64,9 @@
     font-weight: bold;
     width: 100px
 }
+
+.Next_btn:hover {
+    color: #444;
+    background: #ddd;
+    background: linear-gradient(45deg, #fff, #ddd);
+}
