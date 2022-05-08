@@ -1,0 +1,102 @@
+[
+    {
+        "question": "The seed drill was invented by which British inventor?",
+        "options": [
+            "Jethro Tull",
+            "Charles Babbage",
+            "Isaac Newton",
+            "J.J Thomson"
+        ],
+        "correct_answer": "Jethro Tull"
+    },
+    {
+        "question": "Pianist Frédéric Francois Chopin was a composer of which musical era?",
+        "options": [
+            "Romantic",
+            "Classic",
+            "Baroque",
+            "Renaissance"
+        ],
+        "correct_answer": "Romantic"
+    },
+    {
+        "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+        "options": [
+            "Star Wars",
+            "Jaws",
+            "Blade Runner",
+            "Alien"
+        ],
+        "correct_answer": "Star Wars"
+    },
+    {
+        "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+        "options": [
+            "Aragon",
+            "Galicia",
+            "Le&oacute;n",
+            "Navarre"
+        ],
+        "correct_answer": "Aragon"
+    },
+    {
+        "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+        "options": [
+            "Silver",
+            "Gold",
+            "Juno",
+            "Sword"
+        ],
+        "correct_answer": "Silver"
+    },
+    {
+        "question": "When did the French Revolution begin?",
+        "options": [
+            "1789",
+            "1823",
+            "1756",
+            "1799"
+        ],
+        "correct_answer": "1789"
+    },
+    {
+        "question": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+        "options": [
+            "Typhoons",
+            "Tornados",
+            "Economic depression",
+            "Samurai"
+        ],
+        "correct_answer": "Typhoons"
+    },
+    {
+        "question": "Which king was killed at the Battle of Bosworth Field in 1485?",
+        "options": [
+            "Richard III",
+            "Edward V",
+            "Henry VII",
+            "James I"
+        ],
+        "correct_answer": "Richard III"
+    },
+    {
+        "question": "What was the capital of South Vietnam before the Vietnam War?",
+        "options": [
+            "Saigon",
+            "Ho Chi Minh City",
+            "Hanoi",
+            "Hue"
+        ],
+        "correct_answer": "Saigon"
+    },
+    {
+        "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+        "options": [
+            "Culper Ring",
+            "New York Spy Ring",
+            "Washington&#039;s Spies",
+            "Unnamed"
+        ],
+        "correct_answer": "Culper Ring"
+    }
+]
