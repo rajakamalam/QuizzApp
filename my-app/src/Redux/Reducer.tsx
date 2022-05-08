@@ -1,4 +1,4 @@
-import { GetQuestions, updateQuestions, InitialState } from "../Types/Types"
+import { GetQuestions, updateQuestions, ResetState, InitialState } from "../Types/Types"
 
 const initialState: InitialState = {
     each_question: [{
@@ -20,7 +20,7 @@ const initialState: InitialState = {
     unansweredQuestionCount: 0
 };
 
-export default function Questions_Reducer(state = initialState, action: GetQuestions | updateQuestions): InitialState {
+export default function Questions_Reducer(state = initialState, action: GetQuestions | updateQuestions | ResetState): InitialState {
     switch (action.type) {
         case "GET_QUESTIONS": {
             // console.log("Reducer:")
@@ -32,6 +32,9 @@ export default function Questions_Reducer(state = initialState, action: GetQuest
         }
         case "UPDATE_QUESTIONS": {
             return state;
+        }
+        case "RESET_QUESTIONS": {
+            return initialState
         }
         default:
             return state;

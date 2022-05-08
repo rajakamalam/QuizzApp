@@ -24,3 +24,8 @@ export type updateQuestions = {
     type: "UPDATE_QUESTIONS",
     payload: InitialState,
 }
+//3.Reset state
+export type ResetState = {
+    type: "RESET_QUESTIONS",
+    payload: InitialState,
+}

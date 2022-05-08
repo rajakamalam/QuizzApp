@@ -1,9 +1,10 @@
 import { AppShell, Header, Text } from '@mantine/core';
 import Card from "react-bootstrap/Card";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 
 import { InitialState } from "../Types/Types"
+import { resetState } from "../Redux/Action"
 import './Styles/Summary.css'
 
 export default function Summary() {
@@ -14,12 +15,11 @@ export default function Summary() {
     let incorrectAnswerCount = 10 - correctAnswerCount
     let unansweredQuestionCount = allQuestions.unansweredQuestionCount
 
+    const dispatch = useDispatch()
     let navigate = useNavigate()
 
     const navigateHome = () => {
-        // const allQuestions = useSelector((state: InitialState) => state)
-
-        // dispatch<any>(updateStateValues(allQuestions))
+        dispatch<any>(resetState(allQuestions))
         navigate(`/`);
     }
 

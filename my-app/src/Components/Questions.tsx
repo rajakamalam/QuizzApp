@@ -20,6 +20,7 @@ export default function Home() {
         dispatch<any>(fetchQuestions())
     }
 
+    //console.log(allQuestions)
     // useEffect(() => {
     //     dispatch<any>(fetchQuestions())
     // }, [dispatch])
@@ -165,7 +166,7 @@ export default function Home() {
                         <div style={{ display: 'flex', alignItems: 'left', fontWeight: 'bold' }}>
                             Current score: {allQuestions.totalScore}
                         </div>
-                        <button onClick={() => localStorage.clear()}>Clear Local</button>
+                        {/* <button onClick={() => localStorage.clear()}>Clear Local</button> */}
                     </Card>
                 </div>
             }
